@@ -20,6 +20,6 @@ app.use(cors());
 app.use('/api/song', songRouter)
 app.use('/api/album', albumRouter)
 
-app.get('/', (req, res) => res.send("API Working"))
+app.get('/', (req, res) => res.send("API Kenyify is Working"))
 
 app.listen(port, ()=> console.log(`Server started on ${port}`))
